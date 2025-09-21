@@ -2,7 +2,7 @@
 import streamlit as st
 
 # Display your logo image (update path if in subfolder, e.g. 'images/logo.png')
-st.image("SANGINI_LOGOG.JPEG", width=150)
+st.image("SANGINI_LOGO.JPEG", width=150)
 
 st.title("📘 PR–PO–GRN–GIN Linker")
 
