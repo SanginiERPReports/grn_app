@@ -1,4 +1,11 @@
 # app.py — PR–PO–GRN–GIN Linker with header validation + styled Excel output
+import streamlit as st
+
+# Display your logo image (update path if in subfolder, e.g. 'images/logo.png')
+st.image("logo.png", width=150)
+
+st.title("📘 PR–PO–GRN–GIN Linker")
+
 
 import io, re, math
 import streamlit as st
