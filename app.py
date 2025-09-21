@@ -6,6 +6,9 @@ import pandas as pd
 import xlsxwriter
 import streamlit as st
 
+st.image("SANGINI_LOGO.jpg", width=250)  # Increase width as needed
+
+
 st.markdown(
     """
     <div style="display: flex; justify-content: center;">
