@@ -6,8 +6,15 @@ import pandas as pd
 import xlsxwriter
 import streamlit as st
 
-# Display the logo stored in your repo
-st.image("SANGINI_LOGO.jpg", width=150)
+st.markdown(
+    """
+    <div style="display: flex; justify-content: center;">
+        <img src="SANGINI_LOGO.jpg" width="250"/>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
+
 
 st.set_page_config(page_title="PR–PO–GRN–GIN Linker", layout="wide")
 st.title("📘 PR–PO–GRN–GIN Linker")
