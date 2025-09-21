@@ -73,6 +73,8 @@ with c2:
     grn_file   = st.file_uploader("Upload **GRN Export** (header on row 7)", type=["xlsx"])
     gin_file   = st.file_uploader("Upload **GIN Export** (header on row 7)", type=["xlsx"])
 
+st.write("\n")  # Adds  blank lines
+
 if st.button("🚀 Validate & Run"):
     if not (stock_file and po_file and grn_file and gin_file):
         st.error("Please upload all **4 files**.")
