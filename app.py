@@ -9,9 +9,6 @@ import streamlit as st
 # Display the logo stored in your repo
 st.image("SANGINI_LOGO.jpg", width=150)
 
-st.title("📘 PR–PO–GRN–GIN Linker")
-
-
 st.set_page_config(page_title="PR–PO–GRN–GIN Linker", layout="wide")
 st.title("📘 PR–PO–GRN–GIN Linker")
 
