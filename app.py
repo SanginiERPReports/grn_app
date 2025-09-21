@@ -1,16 +1,16 @@
 # app.py — PR–PO–GRN–GIN Linker with header validation + styled Excel output
 import streamlit as st
-
-# Display your logo image (update path if in subfolder, e.g. 'images/logo.png')
-st.image("SANGINI_LOGO.JPG", width=150)
-
-st.title("📘 PR–PO–GRN–GIN Linker")
-
-
 import io, re, math
 import streamlit as st
 import pandas as pd
 import xlsxwriter
+import streamlit as st
+
+# Display the logo stored in your repo
+st.image("SANGINI_LOGO.jpg", width=150)
+
+st.title("📘 PR–PO–GRN–GIN Linker")
+
 
 st.set_page_config(page_title="PR–PO–GRN–GIN Linker", layout="wide")
 st.title("📘 PR–PO–GRN–GIN Linker")
