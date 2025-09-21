@@ -9,6 +9,8 @@ import streamlit as st
 col1, col2, col3 = st.columns([1, 2, 1])
 with col1:
     st.image("SANGINI_LOGO.jpg", width=350)
+    
+st.write("\n")  # Adds 2 blank lines
 
 
 st.set_page_config(page_title="PR–PO–GRN–GIN Linker", layout="wide")
